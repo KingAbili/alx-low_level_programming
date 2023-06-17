@@ -12,9 +12,7 @@ int main(void)
 	numb = 0;
 	while (numb < 10)
 	{
-		char letter = '0' + numb;
-
-		putchar(letter);
+		putchar('0' + numb);
 		numb++;
 	}
 	putchar('\n');
