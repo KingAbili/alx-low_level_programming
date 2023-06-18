@@ -15,8 +15,8 @@ int main(void)
 		putchar('0' + king);
 		if (king < 9)
 		{
-			putchar(' ');
 			putchar(',');
+			putchar(' ');
 		}
 		king++;
 	}
