@@ -14,7 +14,7 @@ int main(void)
 	while (a < 10)
 	{
 		b = 0;
-		while ( b < 10)
+		while (b < 10)
 		{
 			c = a;
 			while (c < 10)
@@ -49,5 +49,5 @@ int main(void)
 		a++;
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
