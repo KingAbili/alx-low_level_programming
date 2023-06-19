@@ -8,9 +8,7 @@
 int main(void)
 {
 	int a, b, c, d;
-
 	a = 0;
-
 	while (a < 10)
 	{
 		b = 0;
