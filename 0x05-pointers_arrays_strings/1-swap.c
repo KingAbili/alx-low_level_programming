@@ -2,8 +2,8 @@
 
 /**
  * swap_int - entry
- * @a - variable to be considered
- * @b - variable to be considered
+ * @a:  variable to be considered
+ * @b: variable to be considered
  * Return: void (succesful)
  */
 
