@@ -1,5 +1,5 @@
+#include <stdio.h>
 #include "main.h"
-#include <stddef.h>
 
 /**
  * _strchr - entry
@@ -12,7 +12,7 @@ char *_strchr(char *s, char c)
 {
 	int num;
 
-	for (num = 0; s[num] >= '\n'; num++)
+	for (num = 0; s[num] >= '\0'; num++)
 	{
 		if (s[num] == c)
 			return (s + num);
